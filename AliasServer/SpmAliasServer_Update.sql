@@ -1,5 +1,5 @@
 /*<info serverAlias="NexOps-Up_DeploymentTest" executers="bodbAdminNet" viewers="vnteam" isFunction="0"></info>*/
-CREATE PROCEDURE [dbo].[SpmAliasServer_Update]
+CREATE PROCEDURE [dbo].[Deployment_Test_3_SpmAliasServer_Update]
 	@AliasServerId INT
 	,@Name VARCHAR(50)
 	,@DbServers VARCHAR(5000)=NULL	
